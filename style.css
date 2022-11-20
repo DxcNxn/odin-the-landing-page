@@ -18,11 +18,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #1f2937;
+    padding: 16px;
 }
 
 .logo {
     width: 100px;
     height: auto;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
 }
 
 .main-pic {
