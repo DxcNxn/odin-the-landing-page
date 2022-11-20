@@ -18,3 +18,17 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+.logo {
+    width: 100px;
+    height: auto;
+}
+
+.main-pic {
+    width: 250px;
+    height: auto;
+}
+.pics {
+    width: 75px;
+    height: auto;
+}
