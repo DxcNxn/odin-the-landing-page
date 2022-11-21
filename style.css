@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-    
+
 }
 
 .welcome,
@@ -59,7 +59,31 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+}
+
+.welcome {
+    background-color: #1f2937;
+    flex: 1;
+    padding: 100px;
+    border: 1px dashed orange;
+    gap: 10px;
+}
+
+.welcome > .left > .heading {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.welcome > .left > .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.welcome > .left > .buttons > * {
+    background-color: #3882f6;
+    color: #e5e7eb;
 }
 
 .main-pic {
