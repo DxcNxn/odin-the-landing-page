@@ -164,3 +164,43 @@ body {
     font-size: 24px;
     font-weight: bold;
 }
+.action-card {
+    /* border: 1px dashed orange; */
+    padding: 0 100px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-content {
+    /* border: 1px dashed orange; */
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 30px 80px;
+    flex: 1;
+    justify-content: space-between;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: lighter;
+}
+.action-content > .left {
+    /* border: 1px dashed orange; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.action-content > .left > .action-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action-content > .right > button {
+    background-color: #3882f6;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 8px 24px;
+    color: #e5e7eb;
+    font-weight: bold;
+}
+
