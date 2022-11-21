@@ -20,7 +20,6 @@ body {
     justify-content: space-between;
     background-color: #1f2937;
     padding: 16px 100px;
-    color: #e5e7eb;
     font-size: 18px;
 }
 
@@ -32,6 +31,21 @@ body {
     background-color: white;
 }
 
+.right-links > ul {
+    /* border: 1px dashed orange; */
+    color: #e5e7eb;
+    margin: 0;
+    padding: 0;
+    width: 270px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    
+}
+
 .welcome,
 .action-content,
 .footnote {
@@ -40,6 +54,7 @@ body {
     align-items: center;
 }
 
+.container,
 .content,
 .quote {
     display: flex;
