@@ -69,7 +69,7 @@ body {
 .welcome {
     background-color: #1f2937;
     flex: 1;
-    padding: 100px;
+    padding: 0 100px;
     border: 1px dashed orange;
     gap: 0 200px;
 }
@@ -99,8 +99,25 @@ body {
     height: auto;
 }
 .pics {
-    width: 75px;
+    width: 150px;
     height: auto;
+}
+
+.content {
+    padding: 30px 100px;
+    gap: 40px;
+    flex: 1;
+}
+
+.content > .title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content > .thumbnails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .quote {
