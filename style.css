@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +26,7 @@ body {
 .logo {
     width: 100px;
     height: auto;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 50%;
     background-color: white;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .container {
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
     display: flex;
     flex-direction: column;
     align-items: stretch;
@@ -70,12 +70,24 @@ body {
     background-color: #1f2937;
     flex: 1;
     padding: 0 100px;
-    border: 1px dashed orange;
-    gap: 0 200px;
+    /* border: 1px dashed orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 100px;
 }
 
 .welcome > .left {
-    border: 1px dashed orange;
+    /* border: 1px dashed orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.welcome > .right {
+    /* border: 1px dashed red; */
 }
 
 .welcome > .left > .heading {
@@ -92,11 +104,15 @@ body {
 .welcome > .left > .buttons > * {
     background-color: #3882f6;
     color: #e5e7eb;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
 }
 
 .main-pic {
-    width: 250px;
+    width: 300px;
     height: auto;
+    border-radius: 10px;
 }
 .pics {
     width: 150px;
@@ -138,7 +154,7 @@ body {
     font-style: italic;
     flex: 1;
     justify-content: center;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
     padding: 0 200px;
 }
 
