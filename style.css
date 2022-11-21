@@ -120,6 +120,14 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.thumbnails > * {
+    width: 160px;
+    flex-wrap: wrap;
 }
 
 .quote {
