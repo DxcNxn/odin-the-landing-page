@@ -101,6 +101,8 @@ body {
 .pics {
     width: 150px;
     height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10%;
 }
 
 .content {
@@ -117,7 +119,7 @@ body {
 .content > .thumbnails {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 40px;
 }
 
 .quote {
