@@ -42,10 +42,6 @@ body {
     justify-content: space-between;
 }
 
-.container {
-    flex: 1;
-}
-
 .welcome,
 .action-content,
 .footnote {
@@ -54,14 +50,20 @@ body {
     align-items: center;
 }
 
-.container,
-.content,
-.quote {
+.container {
     border: 1px dashed orange;
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+    flex: 1;
+}
+
+.content,
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .welcome {
@@ -107,13 +109,14 @@ body {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 50px 200px;
-    gap: 20px;
     flex: 1;
+    justify-content: center;
+    border: 1px dashed red;
+    padding: 0 200px;
 }
 
 .quote > .author {
-    text-align: end;
+    align-self: flex-end;
     color: #1f2937;
     font-size: 24px;
     font-weight: bold;
