@@ -204,3 +204,9 @@ body {
     font-weight: bold;
 }
 
+.footnote {
+    padding: 30px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
