@@ -24,11 +24,10 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
     /* border: 1px solid white; */
-    border-radius: 50%;
-    background-color: white;
+    font-size: 24px;
+    color: #f9faf8;
+    text-transform: uppercase;
 }
 
 .right-links > ul {
@@ -36,10 +35,11 @@ body {
     color: #e5e7eb;
     margin: 0;
     padding: 0;
-    width: 270px;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    font-size: 14px;
+    gap: 20px;
 }
 
 .welcome,
