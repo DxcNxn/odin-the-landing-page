@@ -25,6 +25,31 @@ main {
     background-color: white;
 }
 
+.introduction {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1f2937;
+}
+
+.left {
+    min-width: 300px;
+}
+
+.left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
