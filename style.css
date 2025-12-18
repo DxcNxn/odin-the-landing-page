@@ -9,11 +9,19 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     flex: 1;
+    gap: 60px;
+    background-color: #1f2937;
+    padding: 0px 120px;
+}
+
+.nav-bar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
-    padding: 12px 120px;
+    padding: 0px;
+    margin: 0px;
 }
 
 main {
@@ -31,8 +39,7 @@ main {
     gap: 60px;
     width: 100%;
     padding: 0px;
-    margin: 0px;
-    background-color: #1f2937;
+    margin-bottom: 60px;
 }
 
 .left {
