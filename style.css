@@ -16,6 +16,15 @@ header {
     padding: 12px 120px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 12px 120px;
+    align-items: center;
+    background-color: white;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
