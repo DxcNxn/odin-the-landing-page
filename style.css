@@ -5,6 +5,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    min-width: 800px;
 }
 
 header {
@@ -35,9 +36,7 @@ main {
 
 .introduction {
     display: flex;
-    align-items: center;
     gap: 60px;
-    width: 100%;
     padding: 0px;
     margin-bottom: 60px;
 }
@@ -59,7 +58,6 @@ main {
 
 ul {
     display: flex;
-    justify-content: space-between;
     gap: 48px;
 }
 
@@ -76,6 +74,6 @@ a {
 }
 
 .header-pic {
-    width: 400px;
-    height: auto;
+    width: 300px;
+    height: 100%;
 }
