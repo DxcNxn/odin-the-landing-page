@@ -90,6 +90,26 @@ main {
     text-align: center;
 }
 
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    padding: 96px 48px;
+}
+
+.quote {
+    margin: 0;
+    /* border: 1px solid red; */
+}
+
+.author {
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    /* border: 1px solid blue; */
+}
+
 .bold {
     font-weight: 700;
 }
