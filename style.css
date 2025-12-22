@@ -57,6 +57,34 @@ main {
     font-size: 18px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+    /* border: 1px solid green; */
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #4e4e4e;
+    /* border: 1px solid blue; */
+}
+
+.highlight {
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+.highlight-pic {
+    width: 196px;
+    height: auto;
+    border: 2px solid rgb(68, 68, 255);
+    border-radius: 10%;
+}
+
 ul {
     display: flex;
     gap: 48px;
