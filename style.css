@@ -57,6 +57,11 @@ main {
     font-size: 18px;
 }
 
+.left button {
+    margin-top: 16px;
+    border: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -168,8 +173,10 @@ a {
 }
 
 .header-pic {
-    width: 300px;
+    width: 600px;
     height: 100%;
+    border: 2px solid #f9faf8;
+    border-radius: 16px;
 }
 
 button {
