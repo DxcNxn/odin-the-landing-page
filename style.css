@@ -87,7 +87,7 @@ main {
 }
 
 .highlight-pic {
-    width: 196px;
+    width: 198px;
     aspect-ratio: 1;
     object-fit: cover;
     border: 3px solid rgb(68, 68, 255);
@@ -101,24 +101,20 @@ main {
 
 .testimonial {
     background-color: #e5e7eb;
+    padding: 90px 0px;
 }
 
 .quote {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
-    margin: 90px 0px 0px;
     width: 630px;
-    /* border: 1px solid red; */
 }
 
 .author {
     width: 630px;
-    margin: 0;
     text-align: right;
     font-size: 16px;
-    margin: 0px 0px 90px;
-    /* border: 1px solid blue; */
 }
 
 footer {
