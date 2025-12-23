@@ -118,6 +118,27 @@ main {
     /* border: 1px solid blue; */
 }
 
+footer {
+    flex: 1;
+    padding: 80px 120px;
+    background-color: white;
+}
+
+.subscribe {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 120px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
 .bold {
     font-weight: 700;
 }
