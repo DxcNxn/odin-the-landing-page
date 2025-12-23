@@ -130,12 +130,16 @@ footer {
     border-radius: 10px;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 120px;
+    padding: 48px 90px;
 }
 
 .text {
     display: flex;
     flex-direction: column;
+}
+
+.text .description {
+    color: #e5e7eb;
 }
 
 .bold {
